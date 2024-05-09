@@ -3,7 +3,9 @@
         "sourceMap": true,
         "target": "ES2017",
         "outDir": "./dist",
-        "baseUrl": "./src"
+        "baseUrl": "./src",
+        "moduleResolution": "node",
+        "experimentalDecorators": true
     },
     "include": [
         "src/**/*.ts"
